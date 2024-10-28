@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contador de Tiempo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-800 flex items-center justify-center min-h-screen">
+    <div class="container flex flex-col items-center bg-gray-900 bg-opacity-80 p-10 rounded-lg shadow-lg">
+        <div class="flex flex-wrap justify-center space-x-4 space-y-4 sm:space-y-0">
+            <div class="bubble flex flex-col items-center bg-gray-700 text-white p-4 rounded-lg shadow-lg">
+                <div id="days" class="text-6xl"></div>
+                <div class="text-xl">Días</div>
+            </div>
+            <div class="bubble flex flex-col items-center bg-gray-700 text-white p-4 rounded-lg shadow-lg">
+                <div id="hours" class="text-6xl"></div>
+                <div class="text-xl">Horas</div>
+            </div>
+            <div class="bubble flex flex-col items-center bg-gray-700 text-white p-4 rounded-lg shadow-lg">
+                <div id="minutes" class="text-6xl"></div>
+                <div class="text-xl">Minutos</div>
+            </div>
+            <div class="bubble flex flex-col items-center bg-gray-700 text-white p-4 rounded-lg shadow-lg">
+                <div id="seconds" class="text-6xl"></div>
+                <div class="text-xl">Segundos</div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
